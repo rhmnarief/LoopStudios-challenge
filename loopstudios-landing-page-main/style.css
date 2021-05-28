@@ -1,0 +1,153 @@
+.navbar{
+    margin: 30px 0;
+}
+.navbar .collapse{
+    padding: 0 40px;
+}
+.navbar .collapse .navbar-brand{
+    font-family: 'Alata', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+.navbar .collapse ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.navbar .collapse ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    color: white;
+}
+.bg-jumbotron{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+}
+.head-content{
+    margin-top: 100px;
+}
+.head-content .header-1{
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    padding: 24px 32px;
+}
+.head-content .header-1 h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 64px;
+}
+
+.content-1{
+    display: flex;
+    margin-top:300px ;
+    padding: 0;
+}
+.content-1 .vr-image{
+    position: absolute;
+    z-index: -1;
+}
+.content-1 .row .text-cont-1{
+    display: inline-block;
+    margin-top: 200px;
+    height: 75%;
+    padding: 30px 36px;
+    color:black;
+    background: #ffffff;
+    box-sizing: border-box;
+
+}
+.content-1 .row .text-cont-1 h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+}
+.content-1 .row .text-cont-1 p{
+    font-size: 18px;
+    font-family: 'Alata', sans-serif;
+    color: grey;
+}
+
+.content-2{
+    margin-top: 100px;
+    padding: 0 !important;
+}
+.content-2 .head{
+   display: flex;
+   align-items: center;
+}
+.content-2 .head .head-text{
+    justify-content: left;
+}
+.content-2 .head .head-text h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 64px;
+}
+.content-2 .head .btn{
+    justify-content: center;
+    height: 40px;
+    width: auto;
+    padding: 6px 20px;
+    background: black;
+}
+.content-2 .head .btn a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.content-2 .img{
+    display: flex;
+    justify-content: center;
+}
+.content-2 .img .images{
+    padding: 0;
+    display: inline-block;
+    width: 280px;
+    height: auto;
+
+}
+.content-2 .img .images img{
+    padding-top: 20px;
+}
+.footer{
+    background: black;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+.footer .head-text{
+    display: flex;
+}
+.footer .head-text h1{
+    font-family: 'Alata', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+.footer .icon-media{
+    display: flex;
+    justify-content: center;
+}
+.footer .icon-media a{
+    text-decoration: none;
+    padding: 0 12px;
+}
+.footer .icon-media img{
+    width: 30px;
+}
+.footer .nav-footer a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+}
+.footer .cc-text p{
+    font-family: 'Alata', sans-serif;
+    color: grey;
+}
